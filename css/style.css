@@ -1,0 +1,32 @@
+@import "./navbar.css";
+@import "./header.css";
+@import "./services.css";
+@import "./design.css";
+@import "./steps.css";
+@import "./subscribe.css";
+@import "./footer.css";
+@import "./reviews.css";
+
+:root {
+  --inter: "Inter", system-ui;
+  --primary-color: #1f1f1f;
+  --secondary-color: #545454;
+  --second-black: #313131;
+  --light-gray: #dadada;
+  --second-light-gray: #d1d1d1;
+  --gray: #9b9b9b;
+  --dark-gray: #464646;
+  --second-gray: #8c8c8c;
+}
+body {
+  font-family: var(--inter);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.btn-global {
+  background-color: var(--primary-color);
+  color: #fff;
+}

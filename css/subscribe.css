@@ -1,0 +1,73 @@
+.subscribe {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 60%;
+  text-align: center;
+}
+.subscribe h6 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+.subscribe p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  width: 65%;
+  margin: auto;
+  padding-bottom: 10rem;
+}
+.subscribe i {
+  color: var(--second-gray);
+}
+input,
+input:focus {
+  border: 0;
+}
+.subscribe button {
+  padding: 0.8rem 4rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.input {
+  padding: 0.5rem;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .subscribe {
+    width: 100%;
+  }
+  .subscribe h2 {
+    font-size: 1.5rem;
+  }
+  .input {
+    width: 90%;
+  }
+  .input button {
+    padding: 0.8rem 1.8rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .input {
+    width: 75%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

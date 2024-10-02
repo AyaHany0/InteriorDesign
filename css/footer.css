@@ -1,0 +1,27 @@
+.footer {
+  width: 90%;
+  margin: auto;
+  padding: 8rem 0;
+}
+footer {
+  background-color: var(--primary-color);
+}
+.footer p {
+  font-size: 1.2rem;
+  color: var(--light-gray);
+}
+i {
+  color: #fff;
+}
+li {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--second-light-gray);
+  margin-bottom: 1.5rem;
+}
+h6 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}

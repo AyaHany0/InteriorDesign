@@ -1,0 +1,38 @@
+.design {
+  width: 90%;
+  margin: auto;
+}
+.design h4 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: var(--primary-color);
+}
+.design p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  margin: 2.1rem 0;
+}
+
+.design ul li,
+.design ul li i {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--light-gray);
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.design ul li p {
+  color: var(--primary-color);
+}
+.design button {
+  padding: 1.56rem 4rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.design-img {
+  border-radius: 5px;
+  width: 85%;
+}

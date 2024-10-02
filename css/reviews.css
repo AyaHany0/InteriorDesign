@@ -1,0 +1,82 @@
+.reviews {
+  width: 90%;
+  margin: auto;
+}
+.w-90 {
+  width: 85%;
+}
+.reviews h5 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  color: var(--primary-color);
+  margin-bottom: 2.5rem;
+}
+.arrows button {
+  padding: 1rem 1rem;
+  border: 0;
+}
+.arrows button i {
+  color: var(--dark-gray);
+}
+.card {
+  background-color: var(--primary-color);
+}
+.card span {
+  color: #929292;
+}
+.reviews-card {
+  bottom: 0;
+  right: 0;
+}
+.first-card::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 20px;
+  background-color: #fff;
+  position: absolute;
+  left: -20px;
+}
+.first-card::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 105%;
+  background-color: #fff;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  border-top-left-radius: 5px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .reviews-card {
+    position: relative !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+  }
+  .w-90 {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .reviews-card {
+    position: relative !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .reviews-card {
+    position: absolute !important;
+  } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1320px) {
+  .reviews-card {
+    position: absolute !important;
+  }
+}
